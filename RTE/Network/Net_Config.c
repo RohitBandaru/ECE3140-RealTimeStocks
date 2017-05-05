@@ -15,7 +15,7 @@
 //   <i>This is the name under which embedded host can be
 //   <i>accessed on a local area network.
 //   <i>Default: "my_host"
-#define NET_HOST_NAME           "my_host"
+#define NET_HOST_NAME           "frdm"
 
 //   <o>Memory Pool size <1536-262144:4><#/4>
 //   <i>This is the size of a memory pool in bytes. Buffers for

@@ -44,12 +44,12 @@
 
 // <e> I2C0 (Inter-Integrated Circuit Interface 0) [Driver_I2C0]
 // <i> Enable or disable Driver_I2C0 in component ::CMSIS Driver:I2C
-#define RTE_I2C0                        0
+#define RTE_I2C0                        1
 
 //   <o0> I2C0_SDA <0=>PTB1 <1=>PTB3 <2=>PTD3 <3=>PTD9 <4=>PTE25
 //   <o1> I2C0_SCL <0=>PTB0 <1=>PTB2 <2=>PTD2 <3=>PTD8 <4=>PTE24
-#define RTE_I2C0_SDA_PIN_ID             0
-#define RTE_I2C0_SCL_PIN_ID             0
+#define RTE_I2C0_SDA_PIN_ID             4
+#define RTE_I2C0_SCL_PIN_ID             4
 
 #if   (RTE_I2C0_SDA_PIN_ID == 0) /* PTB1  */
   #define RTE_I2C0_SDA_PIN    1

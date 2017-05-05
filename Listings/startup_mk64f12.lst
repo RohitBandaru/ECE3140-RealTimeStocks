@@ -1066,19 +1066,19 @@ Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
 erwork --depend=.\objects\startup_mk64f12.d -o.\objects\startup_mk64f12.o -IC:\
 Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12 -IC:\Users
 \rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1 -IC:\Keil_v5\ARM\PACK\ARM\C
-MSIS\5.0.0\CMSIS\Driver\Include -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Inc
-lude -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include -IC:\Keil_v5\ARM
-\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5
-.0.0\CMSIS\RTOS2\RTX\Include1 -IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\e
-xamples\frdmk64f -IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devic
-es -IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc -IC:\Ke
-il_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc -IC:\Keil_v5\ARM\PACK
-\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc -IC:\Keil_v5\ARM\PACK\Keil\Kinetis_
-SDK_DFP\2.20\platform\system\inc -IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.2
-0\platform\utilities\inc -IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Networ
-k\Include --predefine="__UVISION_VERSION SETA 522" --predefine="_RTE_ SETA 1" -
--predefine="CPU_MK64FN1M0VLL12 SETA 1" --list=.\listings\startup_mk64f12.lst RT
-E\Device\MK64FN1M0VLL12\startup_MK64F12.s
+MSIS\5.0.1\CMSIS\Driver\Include -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Inc
+lude -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC -IC:\Keil_v5\ARM\
+PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f -IC:\Keil_v5\ARM\PACK\Keil\Kin
+etis_SDK_DFP\2.20\platform\devices -IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2
+.20\platform\drivers\inc -IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platfo
+rm\hal\inc -IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc -IC
+:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc -IC:\Keil_v5\A
+RM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc -IC:\Keil_v5\ARM\PACK\
+Keil\MDK-Middleware\6.5.0\Board -IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0
+\Network\Include --predefine="__RTX SETA 1" --predefine="__MICROLIB SETA 1" --p
+redefine="__UVISION_VERSION SETA 522" --predefine="_RTE_ SETA 1" --predefine="C
+PU_MK64FN1M0VLL12 SETA 1" --list=.\listings\startup_mk64f12.lst RTE\Device\MK64
+FN1M0VLL12\startup_MK64F12.s
 
 
 
@@ -2534,4 +2534,4 @@ Symbol: init_data_bss
       At line 484 in file RTE\Device\MK64FN1M0VLL12\startup_MK64F12.s
 Comment: init_data_bss used once
 4 symbols
-471 symbols in table
+473 symbols in table
