@@ -55,14 +55,14 @@
 //   <i> Defines default stack size for threads with osThreadDef stacksz = 0
 //   <i> Default: 200
 #ifndef OS_STKSIZE
- #define OS_STKSIZE     256      // this stack size value is in words
+ #define OS_STKSIZE     512      // this stack size value is in words
 #endif
  
 //   <o>Main Thread stack size [bytes] <64-32768:8><#/4>
 //   <i> Defines stack size for main thread.
 //   <i> Default: 200
 #ifndef OS_MAINSTKSIZE
- #define OS_MAINSTKSIZE 256      // this stack size value is in words
+ #define OS_MAINSTKSIZE 512      // this stack size value is in words
 #endif
  
 //   <o>Number of threads with user-provided stack size <0-250>
@@ -117,7 +117,7 @@
 //   <i> When the Cortex-M SysTick timer is used, the input clock 
 //   <i> is on most systems identical with the core clock.
 #ifndef OS_CLOCK
- #define OS_CLOCK       120000000
+ #define OS_CLOCK       12000000
 #endif
  
 //   <o>RTX Timer tick interval value [us] <1-1000000>
@@ -138,7 +138,7 @@
 //
 // <i> Enables Round-Robin Thread switching.
 #ifndef OS_ROBIN
- #define OS_ROBIN       1
+ #define OS_ROBIN       0
 #endif
  
 //   <o>Round-Robin Timeout [ticks] <1-1000>

@@ -1,104 +1,125 @@
 Dependencies for Project 'middleware-t', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x590CF477)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\main.o --depend .\objects\main.d)
-I (osObjects.h)(0x5825F0B0)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5898F250)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6BD88)
+F (.\main.c)(0x5917E4B2)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\main.o --depend .\objects\main.d)
+I (osObjects.h)(0x5917BE04)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5627F09E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_LED.h)(0x53BBCB12)
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include\rl_net.h)(0x54FD8286)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1\RTE_Components.h)(0x590CF64A)
-F (.\SensorThread.c)(0x590CF147)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\sensorthread.o --depend .\objects\sensorthread.d)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5898F250)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5917D643)
+F (.\SensorThread.c)(0x5917D969)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\sensorthread.o --depend .\objects\sensorthread.d)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5627F09E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_LED.h)(0x53BBCB12)
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_Accelerometer.h)(0x53FE0BD0)
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_Magnetometer.h)(0x5489B122)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\addon_mdk\Boards\Freescale\FRDM-K64F\Common\LED_FRDM_K64F.c)(0x54D46E7A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\led_frdm_k64f.o --depend .\objects\led_frdm_k64f.d)
+F (.\HTTP_Server_CGI.c)(0x5917E400)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\http_server_cgi.o --depend .\objects\http_server_cgi.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include\rl_net.h)(0x54FD8286)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6AF78)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5917D643)
+I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_LED.h)(0x53BBCB12)
+I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_Accelerometer.h)(0x53FE0BD0)
+I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_Magnetometer.h)(0x5489B122)
+F (Web\web.c)(0x5917E5CD)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\web.o --depend .\objects\web.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+F (.\Web\loc.cgx)(0x5917E5CC)()
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\addon_mdk\Boards\Freescale\FRDM-K64F\Common\FXOS8700.c)(0x557546D7)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fxos8700.o --depend .\objects\fxos8700.d)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_I2C.h)(0x5385D39E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_Common.h)(0x530664D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_Accelerometer.h)(0x53FE0BD0)
+I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_Magnetometer.h)(0x5489B122)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5917D643)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5627F09E)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\addon_mdk\Boards\Freescale\FRDM-K64F\Common\LED_FRDM_K64F.c)(0x54D46E7A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\led_frdm_k64f.o --depend .\objects\led_frdm_k64f.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\board.h)(0x552C115E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\pin_mux.h)(0x552C115E)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\gpio_pins.h)(0x552C115E)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc\fsl_gpio_driver.h)(0x552BC5D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_port_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_gpio_hal.h)(0x552BC5D4)
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_LED.h)(0x53BBCB12)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\addon_mdk\Boards\Freescale\FRDM-K64F\Common\FXOS8700.c)(0x557546D7)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fxos8700.o --depend .\objects\fxos8700.d)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_I2C.h)(0x5898F24C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_Common.h)(0x5898F24C)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_Accelerometer.h)(0x53FE0BD0)
-I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board\Board_Magnetometer.h)(0x5489B122)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1\RTE_Components.h)(0x590CF64A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5898F250)
-F (RTE\CMSIS\RTX_Conf_CM.c)(0x590CE89D)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\rtx_conf_cm.o --depend .\objects\rtx_conf_cm.d)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5898F250)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x5898F250)
-F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4.lib)(0x5898F250)()
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\addon_cmsis\Driver\MK64F\EMAC_MK64F.c)(0x557AC655)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\emac_mk64f.o --depend .\objects\emac_mk64f.d)
+F (RTE\CMSIS\RTX_Conf_CM.c)(0x5917D124)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\rtx_conf_cm.o --depend .\objects\rtx_conf_cm.d)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5627F09E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x556DD9A4)
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4.lib)(0x562505C6)()
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\addon_cmsis\Driver\MK64F\EMAC_MK64F.c)(0x557AC655)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\emac_mk64f.o --depend .\objects\emac_mk64f.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\addon_cmsis\Driver\MK64F\EMAC_MK64F.h)(0x557AC655)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_ETH_MAC.h)(0x5898F24C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_ETH.h)(0x5898F24C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_Common.h)(0x5898F24C)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\RTE_Device.h)(0x590CF359)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_ETH_MAC.h)(0x547F4A32)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_ETH.h)(0x5385D39E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_Common.h)(0x530664D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (.\RTE\Device\MK64FN1M0VLL12\RTE_Device.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_osc_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_sim_hal.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\sim\MK64F12\fsl_sim_hal_MK64F12.h)(0x552BC5D6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_enet_hal.h)(0x552C116A)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\addon_cmsis\Driver\MK64F\I2C_MK64F.c)(0x557AC655)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\i2c_mk64f.o --depend .\objects\i2c_mk64f.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\addon_cmsis\Driver\MK64F\I2C_MK64F.c)(0x557AC655)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\i2c_mk64f.o --depend .\objects\i2c_mk64f.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\addon_cmsis\Driver\MK64F\I2C_MK64F.h)(0x557546D7)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_I2C.h)(0x5898F24C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_Common.h)(0x5898F24C)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\RTE_Device.h)(0x590CF359)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1\RTE_Components.h)(0x590CF64A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_I2C.h)(0x5385D39E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_Common.h)(0x530664D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (.\RTE\Device\MK64FN1M0VLL12\RTE_Device.h)(0x5917BE04)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5917D643)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc\fsl_clock_manager.h)(0x553005C4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_sim_hal.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\sim\MK64F12\fsl_sim_hal_MK64F12.h)(0x552BC5D6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\src\clock\MK64F12\fsl_clock_MK64F12.h)(0x552BC5D6)
@@ -114,30 +135,32 @@ I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_edma_hal.h
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_dmamux_hal.h)(0x552BC5D4)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction.h)(0x55310EE0)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction_bm.h)(0x552EDD74)
-F (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Driver\PHY_KSZ8081RNA.c)(0x54F9B60C)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\phy_ksz8081rna.o --depend .\objects\phy_ksz8081rna.d)
+F (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Driver\PHY_KSZ8081RNA.c)(0x54F9B60C)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\phy_ksz8081rna.o --depend .\objects\phy_ksz8081rna.d)
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Driver\PHY_KSZ8081RNA.h)(0x54F9B60C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_ETH_PHY.h)(0x5898F24C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_ETH.h)(0x5898F24C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_Common.h)(0x5898F24C)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\board.c)(0x552C115E)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\board.o --depend .\objects\board.d)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_ETH_PHY.h)(0x55D74644)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_ETH.h)(0x5385D39E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_Common.h)(0x530664D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\board.c)(0x552C115E)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\board.o --depend .\objects\board.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\board.h)(0x552C115E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\pin_mux.h)(0x552C115E)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\gpio_pins.h)(0x552C115E)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc\fsl_gpio_driver.h)(0x552BC5D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_port_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
@@ -153,80 +176,157 @@ I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_smc_hal.h)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc\fsl_debug_console.h)(0x552BC5D6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction.h)(0x55310EE0)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction_bm.h)(0x552EDD74)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\gpio_pins.c)(0x552C115E)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\gpio_pins.o --depend .\objects\gpio_pins.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\gpio_pins.c)(0x552C115E)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\gpio_pins.o --depend .\objects\gpio_pins.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\gpio_pins.h)(0x552C115E)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc\fsl_gpio_driver.h)(0x552BC5D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_port_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_gpio_hal.h)(0x552BC5D4)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\pin_mux.c)(0x552C115E)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\pin_mux.o --depend .\objects\pin_mux.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\pin_mux.c)(0x552C115E)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\pin_mux.o --depend .\objects\pin_mux.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_port_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_sim_hal.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\sim\MK64F12\fsl_sim_hal_MK64F12.h)(0x552BC5D6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\pin_mux.h)(0x552C115E)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\startup.c)(0x552BC5D2)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\startup.o --depend .\objects\startup.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\startup.c)(0x552BC5D2)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\startup.o --depend .\objects\startup.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\startup.h)(0x552BC5D2)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\src\gpio\fsl_gpio_common.c)(0x552BC5D2)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_gpio_common.o --depend .\objects\fsl_gpio_common.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\src\edma\fsl_edma_common.c)(0x552BC5D2)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_edma_common.o --depend .\objects\fsl_edma_common.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\src\gpio\fsl_gpio_driver.c)(0x552BC5D2)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_gpio_driver.o --depend .\objects\fsl_gpio_driver.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\src\edma\fsl_edma_driver.c)(0x552BC5D2)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_edma_driver.o --depend .\objects\fsl_edma_driver.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc\fsl_edma_driver.h)(0x552BC5D2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc\fsl_edma_request.h)(0x552BC5D2)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_edma_hal.h)(0x552BC5D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_dmamux_hal.h)(0x552BC5D4)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction.h)(0x55310EE0)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction_bm.h)(0x552EDD74)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc\fsl_clock_manager.h)(0x553005C4)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_sim_hal.h)(0x552C116A)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\sim\MK64F12\fsl_sim_hal_MK64F12.h)(0x552BC5D6)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\src\clock\MK64F12\fsl_clock_MK64F12.h)(0x552BC5D6)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal.h)(0x55310EE0)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal_modes.h)(0x552BC5D4)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_osc_hal.h)(0x552BC5D4)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc\fsl_interrupt_manager.h)(0x552BC5D6)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\src\edma\fsl_edma_irq.c)(0x5583FC18)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_edma_irq.o --depend .\objects\fsl_edma_irq.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc\fsl_edma_driver.h)(0x552BC5D2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc\fsl_edma_request.h)(0x552BC5D2)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_edma_hal.h)(0x552BC5D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_dmamux_hal.h)(0x552BC5D4)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction.h)(0x55310EE0)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction_bm.h)(0x552EDD74)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\src\gpio\fsl_gpio_common.c)(0x552BC5D2)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_gpio_common.o --depend .\objects\fsl_gpio_common.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\src\gpio\fsl_gpio_driver.c)(0x552BC5D2)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_gpio_driver.o --depend .\objects\fsl_gpio_driver.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc\fsl_gpio_driver.h)(0x552BC5D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_port_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
@@ -239,34 +339,38 @@ I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal.h)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal_modes.h)(0x552BC5D4)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_osc_hal.h)(0x552BC5D4)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc\fsl_interrupt_manager.h)(0x552BC5D6)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\src\rtc\fsl_rtc_common.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_rtc_common.o --depend .\objects\fsl_rtc_common.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\src\rtc\fsl_rtc_common.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_rtc_common.o --depend .\objects\fsl_rtc_common.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\src\rtc\fsl_rtc_driver.c)(0x552C116A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_rtc_driver.o --depend .\objects\fsl_rtc_driver.d)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F6BD88)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\src\rtc\fsl_rtc_driver.c)(0x552C116A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_rtc_driver.o --depend .\objects\fsl_rtc_driver.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc\fsl_rtc_driver.h)(0x552BC5D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_rtc_hal.h)(0x552C116A)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc\fsl_interrupt_manager.h)(0x552BC5D6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc\fsl_clock_manager.h)(0x553005C4)
@@ -276,158 +380,248 @@ I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\src\clock\MK64F
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal.h)(0x55310EE0)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal_modes.h)(0x552BC5D4)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_osc_hal.h)(0x552BC5D4)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\gpio\fsl_gpio_hal.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_gpio_hal.o --depend .\objects\fsl_gpio_hal.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\dmamux\fsl_dmamux_hal.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_dmamux_hal.o --depend .\objects\fsl_dmamux_hal.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_dmamux_hal.h)(0x552BC5D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\edma\fsl_edma_hal.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_edma_hal.o --depend .\objects\fsl_edma_hal.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_edma_hal.h)(0x552BC5D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\enet\fsl_enet_hal.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_enet_hal.o --depend .\objects\fsl_enet_hal.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_enet_hal.h)(0x552C116A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\gpio\fsl_gpio_hal.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_gpio_hal.o --depend .\objects\fsl_gpio_hal.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_gpio_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\lptmr\fsl_lptmr_hal.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_lptmr_hal.o --depend .\objects\fsl_lptmr_hal.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\i2c\fsl_i2c_hal.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_i2c_hal.o --depend .\objects\fsl_i2c_hal.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_i2c_hal.h)(0x552BC5D4)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc\fsl_misc_utilities.h)(0x5509711C)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\lptmr\fsl_lptmr_hal.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_lptmr_hal.o --depend .\objects\fsl_lptmr_hal.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_lptmr_hal.h)(0x553005C4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\mcg\fsl_mcg_hal.c)(0x552C116A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_mcg_hal.o --depend .\objects\fsl_mcg_hal.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\mcg\fsl_mcg_hal.c)(0x552C116A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_mcg_hal.o --depend .\objects\fsl_mcg_hal.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal.h)(0x55310EE0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\mcg\fsl_mcg_hal_modes.c)(0x552C116A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_mcg_hal_modes.o --depend .\objects\fsl_mcg_hal_modes.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\mcg\fsl_mcg_hal_modes.c)(0x552C116A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_mcg_hal_modes.o --depend .\objects\fsl_mcg_hal_modes.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal_modes.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal.h)(0x55310EE0)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\osc\fsl_osc_hal.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_osc_hal.o --depend .\objects\fsl_osc_hal.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\osc\fsl_osc_hal.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_osc_hal.o --depend .\objects\fsl_osc_hal.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_osc_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\port\fsl_port_hal.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_port_hal.o --depend .\objects\fsl_port_hal.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\port\fsl_port_hal.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_port_hal.o --depend .\objects\fsl_port_hal.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_port_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\rtc\fsl_rtc_hal.c)(0x552C116A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_rtc_hal.o --depend .\objects\fsl_rtc_hal.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\rtc\fsl_rtc_hal.c)(0x552C116A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_rtc_hal.o --depend .\objects\fsl_rtc_hal.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_rtc_hal.h)(0x552C116A)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal.h)(0x55310EE0)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\sim\MK64F12\fsl_sim_hal_MK64F12.c)(0x552BC5D6)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_sim_hal_mk64f12.o --depend .\objects\fsl_sim_hal_mk64f12.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\sim\MK64F12\fsl_sim_hal_MK64F12.c)(0x552BC5D6)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_sim_hal_mk64f12.o --depend .\objects\fsl_sim_hal_mk64f12.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_sim_hal.h)(0x552C116A)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\sim\MK64F12\fsl_sim_hal_MK64F12.h)(0x552BC5D6)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\uart\fsl_uart_hal.c)(0x552BC5D6)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_uart_hal.o --depend .\objects\fsl_uart_hal.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\uart\fsl_uart_hal.c)(0x552BC5D6)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_uart_hal.o --depend .\objects\fsl_uart_hal.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_uart_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\src\fsl_os_abstraction_bm.c)(0x552C116A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_os_abstraction_bm.o --depend .\objects\fsl_os_abstraction_bm.d)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\src\fsl_os_abstraction_bm.c)(0x552C116A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_os_abstraction_bm.o --depend .\objects\fsl_os_abstraction_bm.d)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction.h)(0x55310EE0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction_bm.h)(0x552EDD74)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc\fsl_interrupt_manager.h)(0x552BC5D6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
@@ -439,17 +633,19 @@ I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal.h)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal_modes.h)(0x552BC5D4)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_osc_hal.h)(0x552BC5D4)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_lptmr_hal.h)(0x553005C4)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\src\clock\MK64F12\fsl_clock_MK64F12.c)(0x552C116A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_clock_mk64f12.o --depend .\objects\fsl_clock_mk64f12.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\src\clock\MK64F12\fsl_clock_MK64F12.c)(0x552C116A)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_clock_mk64f12.o --depend .\objects\fsl_clock_mk64f12.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
@@ -460,21 +656,23 @@ I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc\fsl_clock_m
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\src\clock\MK64F12\fsl_clock_MK64F12.h)(0x552BC5D6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal_modes.h)(0x552BC5D4)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_osc_hal.h)(0x552BC5D4)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\src\clock\fsl_clock_manager.c)(0x552C116C)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_clock_manager.o --depend .\objects\fsl_clock_manager.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\src\clock\fsl_clock_manager.c)(0x552C116C)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_clock_manager.o --depend .\objects\fsl_clock_manager.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc\fsl_clock_manager.h)(0x553005C4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_sim_hal.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\sim\MK64F12\fsl_sim_hal_MK64F12.h)(0x552BC5D6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\src\clock\MK64F12\fsl_clock_MK64F12.h)(0x552BC5D6)
@@ -484,62 +682,68 @@ I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_osc_hal.h)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction.h)(0x55310EE0)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction_bm.h)(0x552EDD74)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_rtc_hal.h)(0x552C116A)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\src\clock\fsl_clock_manager_common.c)(0x552C116C)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_clock_manager_common.o --depend .\objects\fsl_clock_manager_common.d)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\src\clock\fsl_clock_manager_common.c)(0x552C116C)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_clock_manager_common.o --depend .\objects\fsl_clock_manager_common.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc\fsl_clock_manager.h)(0x553005C4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_sim_hal.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\sim\MK64F12\fsl_sim_hal_MK64F12.h)(0x552BC5D6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\src\clock\MK64F12\fsl_clock_MK64F12.h)(0x552BC5D6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal.h)(0x55310EE0)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal_modes.h)(0x552BC5D4)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_osc_hal.h)(0x552BC5D4)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\src\interrupt\fsl_interrupt_manager.c)(0x5509711C)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_interrupt_manager.o --depend .\objects\fsl_interrupt_manager.d)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\src\interrupt\fsl_interrupt_manager.c)(0x5509711C)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_interrupt_manager.o --depend .\objects\fsl_interrupt_manager.d)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc\fsl_interrupt_manager.h)(0x552BC5D6)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\src\fsl_debug_console.c)(0x552BC5D6)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_debug_console.o --depend .\objects\fsl_debug_console.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\src\fsl_debug_console.c)(0x552BC5D6)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_debug_console.o --depend .\objects\fsl_debug_console.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc\fsl_debug_console.h)(0x552BC5D6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction.h)(0x55310EE0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction_bm.h)(0x552EDD74)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_uart_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc\fsl_clock_manager.h)(0x553005C4)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_sim_hal.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\sim\MK64F12\fsl_sim_hal_MK64F12.h)(0x552BC5D6)
@@ -548,35 +752,37 @@ I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal.h)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal_modes.h)(0x552BC5D4)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_osc_hal.h)(0x552BC5D4)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\src\print_scan.h)(0x5509711C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F6BD88)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\src\print_scan.c)(0x5509711C)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\print_scan.o --depend .\objects\print_scan.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F6AF78)
+F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\src\print_scan.c)(0x5509711C)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\print_scan.o --depend .\objects\print_scan.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\src\print_scan.h)(0x5509711C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x57F6BD86)
-F (RTE\Device\MK64FN1M0VLL12\MK64FN1M0xxx12_flash.scf)(0x552C1166)()
-F (RTE\Device\MK64FN1M0VLL12\MK64FN1M0xxx12_ram.scf)(0x552C1166)()
-F (RTE\Device\MK64FN1M0VLL12\RTE_Device.h)(0x590CF359)()
-F (RTE\Device\MK64FN1M0VLL12\hardware_init.c)(0x590CF359)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\hardware_init.o --depend .\objects\hardware_init.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x57F6AF76)
+F (RTE\Device\MK64FN1M0VLL12\MK64FN1M0xxx12_flash.scf)(0x5917BE04)()
+F (RTE\Device\MK64FN1M0VLL12\MK64FN1M0xxx12_ram.scf)(0x5917BE04)()
+F (RTE\Device\MK64FN1M0VLL12\RTE_Device.h)(0x5917BE04)()
+F (RTE\Device\MK64FN1M0VLL12\hardware_init.c)(0x5917D7CA)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\hardware_init.o --depend .\objects\hardware_init.d)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\board.h)(0x552C115E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\pin_mux.h)(0x552C115E)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f\gpio_pins.h)(0x552C115E)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc\fsl_gpio_driver.h)(0x552BC5D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_port_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6AF76)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
@@ -591,164 +797,43 @@ I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_osc_hal.h)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc\fsl_debug_console.h)(0x552BC5D6)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction.h)(0x55310EE0)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction_bm.h)(0x552EDD74)
-F (RTE\Device\MK64FN1M0VLL12\startup_MK64F12.s)(0x552C1166)(--cpu Cortex-M4.fp --pd "__RTX SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include--pd "__UVISION_VERSION SETA 522" --pd "_RTE_ SETA 1" --pd "CPU_MK64FN1M0VLL12 SETA 1"--list .\listings\startup_mk64f12.lst --xref -o .\objects\startup_mk64f12.o --depend .\objects\startup_mk64f12.d)
-F (RTE\Device\MK64FN1M0VLL12\system_MK64F12.c)(0x552C1166)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\system_mk64f12.o --depend .\objects\system_mk64f12.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
+F (RTE\Device\MK64FN1M0VLL12\startup_MK64F12.s)(0x5917BE04)(--cpu Cortex-M4.fp --pd "__RTX SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1" --pd "CPU_MK64FN1M0VLL12 SETA 1"--list .\listings\startup_mk64f12.lst --xref -o .\objects\startup_mk64f12.o --depend .\objects\startup_mk64f12.d)
+F (RTE\Device\MK64FN1M0VLL12\system_MK64F12.c)(0x5917BE04)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\system_mk64f12.o --depend .\objects\system_mk64f12.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (.\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-F (RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)()
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\enet\fsl_enet_hal.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_enet_hal.o --depend .\objects\fsl_enet_hal.d)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_enet_hal.h)(0x552C116A)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\src\edma\fsl_edma_common.c)(0x552BC5D2)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_edma_common.o --depend .\objects\fsl_edma_common.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\src\edma\fsl_edma_driver.c)(0x552BC5D2)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_edma_driver.o --depend .\objects\fsl_edma_driver.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc\fsl_edma_driver.h)(0x552BC5D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc\fsl_edma_request.h)(0x552BC5D2)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_edma_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_dmamux_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction.h)(0x55310EE0)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction_bm.h)(0x552EDD74)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc\fsl_clock_manager.h)(0x553005C4)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_sim_hal.h)(0x552C116A)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\sim\MK64F12\fsl_sim_hal_MK64F12.h)(0x552BC5D6)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\src\clock\MK64F12\fsl_clock_MK64F12.h)(0x552BC5D6)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal.h)(0x55310EE0)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_mcg_hal_modes.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_osc_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc\fsl_interrupt_manager.h)(0x552BC5D6)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\src\edma\fsl_edma_irq.c)(0x5583FC18)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_edma_irq.o --depend .\objects\fsl_edma_irq.d)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc\fsl_edma_driver.h)(0x552BC5D2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc\fsl_edma_request.h)(0x552BC5D2)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_edma_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_dmamux_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction.h)(0x55310EE0)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc\fsl_os_abstraction_bm.h)(0x552EDD74)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\dmamux\fsl_dmamux_hal.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_dmamux_hal.o --depend .\objects\fsl_dmamux_hal.d)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_dmamux_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\edma\fsl_edma_hal.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_edma_hal.o --depend .\objects\fsl_edma_hal.d)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_edma_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-F (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\src\i2c\fsl_i2c_hal.c)(0x552BC5D4)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\fsl_i2c_hal.o --depend .\objects\fsl_i2c_hal.d)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc\fsl_i2c_hal.h)(0x552BC5D4)
-I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F6BD86)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h)(0x552C116A)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898F24A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898F24A)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_extension.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\fsl_bitaccess.h)(0x552C1166)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12\include\MK64F12_features.h)(0x552C1166)
-I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc\fsl_misc_utilities.h)(0x5509711C)
-F (RTE\Network\Net_Config.c)(0x590CF359)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12-IC:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="522" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\net_config.o --depend .\objects\net_config.d)
-I (C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1\RTE_Components.h)(0x590CF64A)
-I (RTE\Network\Net_Config_ETH_0.h)(0x590CD3B4)
-I (RTE\Network\Net_Config_UDP.h)(0x5348028E)
-I (RTE\Network\Net_Config_TCP.h)(0x57583E4A)
-I (RTE\Network\Net_Config_HTTP_Server.h)(0x590CF359)
+F (RTE\Device\MK64FN1M0VLL12\system_MK64F12.h)(0x5917BE04)()
+F (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Lib\ARM\Net_CM3_L.lib)(0x55A69434)()
+F (RTE\Network\Net_Config.c)(0x5917BE04)(-c --cpu Cortex-M4.fp -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\MK64FN1M0VLL12-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\examples\frdmk64f-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\drivers\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\hal\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\osa\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\system\inc-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\utilities\inc-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include-D__UVISION_VERSION="523" -D_RTE_ -DCPU_MK64FN1M0VLL12 -DNDEBUG --C99-o .\objects\net_config.o --depend .\objects\net_config.d)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5917D643)
+I (RTE\Network\Net_Config_ETH_0.h)(0x5917D124)
+I (RTE\Network\Net_Config_UDP.h)(0x5917BE04)
+I (RTE\Network\Net_Config_TCP.h)(0x5917BE04)
+I (RTE\Network\Net_Config_HTTP_Server.h)(0x5917D7CA)
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include\net_config.h)(0x54492996)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5898F250)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6BD88)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5627F09E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F6AF78)
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include\rl_net_lib.h)(0x54492996)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_USART.h)(0x5898F24C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_Common.h)(0x5898F24C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6BD88)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_ETH_MAC.h)(0x5898F24C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_ETH.h)(0x5898F24C)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include\Driver_ETH_PHY.h)(0x5898F24C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_USART.h)(0x54732D9E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_Common.h)(0x530664D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F6AF78)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_ETH_MAC.h)(0x547F4A32)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_ETH.h)(0x5385D39E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Driver\Include\Driver_ETH_PHY.h)(0x55D74644)
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include\net_modem.h)(0x54492996)
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Include\rl_net.h)(0x54FD8286)
-F (RTE\Network\Net_Config_ETH_0.h)(0x590CD3B4)()
-F (RTE\Network\Net_Config_HTTP_Server.h)(0x590CF359)()
-F (RTE\Network\Net_Config_TCP.h)(0x57583E4A)()
-F (RTE\Network\Net_Config_UDP.h)(0x5348028E)()
-F (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Network\Lib\ARM\Net_CM3_L.lib)(0x55A69434)()
+F (RTE\Network\Net_Config_ETH_0.h)(0x5917D124)()
+F (RTE\Network\Net_Config_HTTP_Server.h)(0x5917D7CA)()
+F (RTE\Network\Net_Config_TCP.h)(0x5917BE04)()
+F (RTE\Network\Net_Config_UDP.h)(0x5917BE04)()

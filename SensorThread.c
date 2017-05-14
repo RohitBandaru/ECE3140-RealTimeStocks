@@ -30,9 +30,9 @@ void Thread (void const *argument) {
 		Accelerometer_GetState (&g_accel); 
 		Magnetometer_GetState (&g_magneto);
     osDelay(500);
-		LED_Off(2); //blue LED
+	//	LED_Off(2); //blue LED
 		osDelay(500);
-		LED_On(2);
+//		LED_On(2);
     osThreadYield ();                                           // suspend thread
   }
 }

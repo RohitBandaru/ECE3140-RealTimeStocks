@@ -35,8 +35,8 @@
 
 void hardware_init(void) {
   /* Disable Memory Protection Unit */
-  MPU->CESR &= -1;
-
+ // MPU->CESR &= ~MPU_CESR_VLD_MASK;
+MPU->CESR &= -1;
   /* enable clock for PORTs */
   CLOCK_SYS_EnablePortClock(PORTA_IDX);
   CLOCK_SYS_EnablePortClock(PORTB_IDX);
@@ -53,9 +53,6 @@ void hardware_init(void) {
   /* Init board clock */
   BOARD_ClockInit();
   dbg_uart_init();
-	
-	configure_i2c_pins(0);
-	configure_enet_pins(0);
 }
 
 /*!
