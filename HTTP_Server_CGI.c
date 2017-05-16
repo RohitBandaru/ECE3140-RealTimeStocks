@@ -120,26 +120,28 @@ void cgi_process_data (uint8_t code, const char *data, uint32_t len) {
  
 // Generate dynamic web data from a script line.
 uint32_t cgi_script (const char *env, char *buf, uint32_t buflen, uint32_t *pcgi) {
-  uint32_t len = 0;
+ uint32_t len = 0;
 
-  LED_On(2); //green LED
-  switch (env[0]) {
-  case 'L' :
-		sprintf(buf, "{\"x\":\"d\"}");
-		/*sprintf(buf, "{\"x\":\"%d\",\"y\":\"%d\",\"z\":\"%d\",\"ax\":\"%d\",\"ay\":\"%d\", \"az\":\"%d\"}" 
-			,g_magneto.x, g_magneto.y, g_magneto.z, g_accel.x, g_accel.y, g_accel.z);*/
+ LED_On(2); //green LED
+ switch (env[0]) {
+ case 'L' :
+ sprintf(buf, "{\"x\":\"%d\", \"y\":\"%d\", \
+						\"z\":\"%d\", \"ax\":\"%d\", \
+						\"ay\":\"%d\", \"az\":\"%d\"}" \
+					,g_magneto.x, g_magneto.y, g_magneto.z, g_accel.x, g_accel.y, g_accel.z);
 
-			len = strlen(buf);
-	break;
+					len = strlen(buf);
+			break;
  }
- LED_Off(2);
+		LED_Off(2);
 
- return (len); 
+		return (len);
 }
+ 
  
 // Override default Content-Type for CGX script files.
 const char *cgx_content_type (void) {
-  return("application/json");
+  return ("application/json");
 }
  
 // Override default character encoding in html documents.

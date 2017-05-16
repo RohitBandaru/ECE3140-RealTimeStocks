@@ -1,5 +1,5 @@
 .\objects\net_config.o: RTE\Network\Net_Config.c
-.\objects\net_config.o: .\RTE\_Target_1\RTE_Components.h
+.\objects\net_config.o: C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\_Target_1\RTE_Components.h
 .\objects\net_config.o: RTE\Network\Net_Config_ETH_0.h
 .\objects\net_config.o: RTE\Network\Net_Config_UDP.h
 .\objects\net_config.o: RTE\Network\Net_Config_TCP.h

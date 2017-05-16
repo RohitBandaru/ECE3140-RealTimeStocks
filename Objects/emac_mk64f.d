@@ -7,7 +7,7 @@
 .\objects\emac_mk64f.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\emac_mk64f.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\emac_mk64f.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\emac_mk64f.o: .\RTE\Device\MK64FN1M0VLL12\RTE_Device.h
+.\objects\emac_mk64f.o: C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\RTE_Device.h
 .\objects\emac_mk64f.o: C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\fsl_device_registers.h
 .\objects\emac_mk64f.o: C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12/include/MK64F12.h
 .\objects\emac_mk64f.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h
@@ -15,7 +15,7 @@
 .\objects\emac_mk64f.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h
 .\objects\emac_mk64f.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h
 .\objects\emac_mk64f.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h
-.\objects\emac_mk64f.o: .\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h
+.\objects\emac_mk64f.o: C:\Users\rb696\Desktop\ECE3140-RealTimeStocks\RTE\Device\MK64FN1M0VLL12\system_MK64F12.h
 .\objects\emac_mk64f.o: C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12/include/MK64F12_extension.h
 .\objects\emac_mk64f.o: C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12/include/MK64F12.h
 .\objects\emac_mk64f.o: C:\Keil_v5\ARM\PACK\Keil\Kinetis_SDK_DFP\2.20\platform\devices\MK64F12/include/fsl_bitaccess.h

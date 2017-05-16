@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\middleware-t.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\middleware-t.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Sun May 14 01:06:22 2017
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Tue May 16 01:24:39 2017
 <BR><P>
 <H3>Maximum Stack Usage =        240 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -1630,8 +1630,8 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;http_listener
 </UL>
 
-<P><STRONG><a name="[197]"></a>cgi_script</STRONG> (Thumb, 58 bytes, Stack size 24 bytes, http_server_cgi.o(i.cgi_script))
-<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = cgi_script &rArr; LED_On &rArr; GPIO_DRV_WritePinOutput
+<P><STRONG><a name="[197]"></a>cgi_script</STRONG> (Thumb, 90 bytes, Stack size 40 bytes, http_server_cgi.o(i.cgi_script))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = cgi_script &rArr; LED_On &rArr; GPIO_DRV_WritePinOutput
 </UL>
 <BR>[Calls]<UL><LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LED_On
 <LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LED_Off
@@ -3638,7 +3638,13 @@ Local Symbols
 <P><STRONG><a name="[141]"></a>I2C_Control</STRONG> (Thumb, 480 bytes, Stack size 40 bytes, i2c_mk64f.o(i.I2C_Control))
 <BR><BR>[Stack]<UL><LI>Max Depth = 132<LI>Call Chain = I2C_Control &rArr; CLOCK_SYS_GetBusClockFreq &rArr; CLOCK_HAL_GetOutClk &rArr; CLOCK_HAL_GetFllClk &rArr; CLOCK_HAL_GetFllRefClk &rArr; CLOCK_HAL_TestFllExternalRefFreq
 </UL>
-<BR>[Calls]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PTx_Base
+<BR>[Calls]<UL><LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SetBaudRate
+<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SetAddress7bit
+<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SetAddress10bit
+<LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SendStop
+<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_HAL_SetPinDir
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLOCK_SYS_GetBusClockFreq
+<LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PTx_Base
 <LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_HAL_SetMuxMode
 <LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SetIntCmd
 <LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_IsMaster
@@ -3646,12 +3652,6 @@ Local Symbols
 <LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_HAL_ReadPinInput
 <LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_HAL_ClearPinOutput
 <LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
-<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SetBaudRate
-<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SetAddress7bit
-<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SetAddress10bit
-<LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SendStop
-<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_HAL_SetPinDir
-<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLOCK_SYS_GetBusClockFreq
 </UL>
 <BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C2_Control
 <LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C1_Control
@@ -3718,10 +3718,10 @@ Local Symbols
 <P><STRONG><a name="[145]"></a>I2C_Initialize</STRONG> (Thumb, 244 bytes, Stack size 16 bytes, i2c_mk64f.o(i.I2C_Initialize))
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = I2C_Initialize &rArr; EDMA_DRV_RequestChannel &rArr; EDMA_DRV_ClaimChannel
 </UL>
-<BR>[Calls]<UL><LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_HAL_SetOpenDrainCmd
-<LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_HAL_SetMuxMode
-<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_DRV_RequestChannel
+<BR>[Calls]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_DRV_RequestChannel
 <LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_DRV_InstallCallback
+<LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_HAL_SetOpenDrainCmd
+<LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PORT_HAL_SetMuxMode
 <LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 </UL>
 <BR>[Called By]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C2_Initialize
@@ -3732,15 +3732,15 @@ Local Symbols
 <P><STRONG><a name="[146]"></a>I2C_MasterReceive</STRONG> (Thumb, 318 bytes, Stack size 64 bytes, i2c_mk64f.o(i.I2C_MasterReceive))
 <BR><BR>[Stack]<UL><LI>Max Depth = 140<LI>Call Chain = I2C_MasterReceive &rArr; EDMA_DRV_PrepareDescriptorTransfer &rArr; EDMA_HAL_STCDSetBasicTransfer &rArr; EDMA_HAL_STCDSetAttribute
 </UL>
-<BR>[Calls]<UL><LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_HAL_STCDSetScatterGatherCmd
+<BR>[Calls]<UL><LI><a href="#[160]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SendStart
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_DRV_StartChannel
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_DRV_PushDescriptorToReg
+<LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_HAL_STCDSetScatterGatherCmd
 <LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_HAL_STCDSetHalfCompleteIntCmd
 <LI><a href="#[15f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_HAL_STCDSetDisableDmaRequestAfterTCDDoneCmd
 <LI><a href="#[15c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_HAL_STCDSetChannelMajorLink
 <LI><a href="#[15e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_HAL_STCDSetBandwidth
 <LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_DRV_PrepareDescriptorTransfer
-<LI><a href="#[160]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SendStart
-<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_DRV_StartChannel
-<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_DRV_PushDescriptorToReg
 </UL>
 <BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C2_MasterReceive
 <LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C1_MasterReceive
@@ -3750,15 +3750,15 @@ Local Symbols
 <P><STRONG><a name="[147]"></a>I2C_MasterTransmit</STRONG> (Thumb, 318 bytes, Stack size 64 bytes, i2c_mk64f.o(i.I2C_MasterTransmit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 140<LI>Call Chain = I2C_MasterTransmit &rArr; EDMA_DRV_PrepareDescriptorTransfer &rArr; EDMA_HAL_STCDSetBasicTransfer &rArr; EDMA_HAL_STCDSetAttribute
 </UL>
-<BR>[Calls]<UL><LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_HAL_STCDSetScatterGatherCmd
+<BR>[Calls]<UL><LI><a href="#[160]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SendStart
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_DRV_StartChannel
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_DRV_PushDescriptorToReg
+<LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_HAL_STCDSetScatterGatherCmd
 <LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_HAL_STCDSetHalfCompleteIntCmd
 <LI><a href="#[15f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_HAL_STCDSetDisableDmaRequestAfterTCDDoneCmd
 <LI><a href="#[15c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_HAL_STCDSetChannelMajorLink
 <LI><a href="#[15e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_HAL_STCDSetBandwidth
 <LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_DRV_PrepareDescriptorTransfer
-<LI><a href="#[160]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SendStart
-<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_DRV_StartChannel
-<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EDMA_DRV_PushDescriptorToReg
 </UL>
 <BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C2_MasterTransmit
 <LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C1_MasterTransmit
@@ -3768,10 +3768,10 @@ Local Symbols
 <P><STRONG><a name="[148]"></a>I2C_PowerControl</STRONG> (Thumb, 344 bytes, Stack size 16 bytes, i2c_mk64f.o(i.I2C_PowerControl))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = I2C_PowerControl &rArr; I2C_HAL_SendStop
 </UL>
-<BR>[Calls]<UL><LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SetIntCmd
-<LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_IsMaster
-<LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SendStop
+<BR>[Calls]<UL><LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SendStop
 <LI><a href="#[161]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_Init
+<LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SetIntCmd
+<LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_IsMaster
 </UL>
 <BR>[Called By]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C2_PowerControl
 <LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C1_PowerControl
@@ -3812,7 +3812,9 @@ Local Symbols
 <P><STRONG><a name="[144]"></a>I2Cx_IRQHandler</STRONG> (Thumb, 1170 bytes, Stack size 32 bytes, i2c_mk64f.o(i.I2Cx_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = I2Cx_IRQHandler &rArr; I2C_HAL_SendStop
 </UL>
-<BR>[Calls]<UL><LI><a href="#[167]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_WriteByte
+<BR>[Calls]<UL><LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SendStop
+<LI><a href="#[160]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SendStart
+<LI><a href="#[167]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_WriteByte
 <LI><a href="#[162]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SetDmaCmd
 <LI><a href="#[166]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SetDirMode
 <LI><a href="#[163]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SendNak
@@ -3820,8 +3822,6 @@ Local Symbols
 <LI><a href="#[164]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_ReadByte
 <LI><a href="#[168]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_GetStatusFlag
 <LI><a href="#[165]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_ClearInt
-<LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SendStop
-<LI><a href="#[160]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_HAL_SendStart
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C2_IRQHandler
 <LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C1_IRQHandler
